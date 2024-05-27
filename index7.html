@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Discord</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+    <style type="text/css">
+        body {
+            background-image: url(disc.jpg);;
+            background-size: 100%;
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.7);
+            margin-top: 100px;
+        }
+
+        #login {
+            font-size: 20px;
+        }
+
+        #email {
+            font-size: 16px;
+        }
+
+        #button {
+            font-size: 30px;
+        }
+
+        #con {
+            font-size: 16px;
+        }
+
+        #img {
+            border-radius: 12px 12px 12px 12px;
+            width: 50%;
+            margin-left: 110px;
+           margin-top: 60px;
+        }
+
+        .qr-code {
+            display: inline-block;
+        }
+        #REG {
+        	margin-top: 10px;
+            font-size: 18px;
+        }
+
+    </style>
+
+</head>
+
+<!-- BODY STARTS HERE -->
+	<body>
+	<div class="container bg-dark rounded mt-5 w-75 p-3">
+    	<div class="row">
+    	<div class="col-md-6">
+         	<h2 class="text-center text-white">Welcome Back!</h2>
+         	<p id="Login" class="text-center text-secondary">We're so excited to see you again!</p>
+
+    <!-- DIVs for email and password forms -->
+    <form>
+    	<div class="form-group">
+        	<label for="email" class="text-white"><h6>EMAIL OR PHONE NUMBER</h6></label> 
+  			<label id="email" class=" text-danger">*</label>
+            	<input type="text" class="form-control" id="email" placeholder="Enter email" name="email" required>
+        </div>
+
+        <div class="form-group">
+        <br>
+        	<label for="pswd" class="text-white"><h6>PASSWORD</h6></label>
+            <label id="small" class="text-danger">*</label>
+            	<input type="password" class="form-control" placeholder="Enter password" name="pswd" required>
+                	<a href="https://discord.com/" class="text-primary">Forgot your password?</a>
+        </div>
+
+        <!-- Button here -->
+                <button class="btn btn-primary mt-3 w-100 text-white" type="submit">Log in</button>
+
+        <!-- Div for question -->
+                
+        <div>
+        	<p id="con" class="text-white">Need an account?</p>
+            <p id="REG" class="text-primary" href="https://discord.com/">Register Here</p></div>
+    </form>
+    </div>
+
+    <div class="col-md-6">
+    <div class="qr-code-img">
+        <img class="img-thumbnail border-primary qr-code" src="qr.png" alt="QR CODE" id="img">
+        <br><br>
+            <h3 class="text-white text-center">Log In with QR code</h3>
+            <p class="text-center text-white">Scan QR code with your mobile device to login instantly</p>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- BODY ENDS HERE -->
+    </body>
+    </html>
