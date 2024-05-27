@@ -1,0 +1,28 @@
+body {
+	background-color: white;
+}
+
+table {
+	background-color: crimson;
+	border-color:seagreen;
+	box-align: center;
+}
+
+td {
+	background-color: lightgoldenrodyellow;
+	color: maroon;
+	font-weight: bold;
+	text-shadow: 2px 2px 3px darkkhaki;
+	border: 7px double saddlebrown;
+}
+
+th {
+	background-color: white;
+	color: darkred;
+	border: 7px ridge brown;
+}
+
+.poto {
+	padding: 30px;
+	text-align: left;
+}
