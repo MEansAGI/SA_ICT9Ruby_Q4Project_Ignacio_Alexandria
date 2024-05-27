@@ -1,0 +1,54 @@
+body {
+	background-color: lightyellow;
+}
+
+
+table, th, td {
+	margin-right: auto;
+	margin-left: auto;
+	border: 2px solid brown;
+	padding: 12px;
+
+}
+
+th {
+	color: brown;
+	font-size: 35px;
+	height: 75px;
+	width: 300px;
+}
+
+th.first{
+	width: 110px;
+	font-size: 23px;
+}
+
+th.second{
+	font-size: 23px;
+	color: coral;
+}
+
+th.third{
+	font-size: 23px;
+	color: indianred;
+}
+
+th.foul{
+	font-size: 23px;
+	color: brown;
+}
+
+td {
+	text-align: left;
+	color: brown;
+}
+
+table {
+	width:98%;
+	height:20%;
+}
+
+i {
+	color:brown;
+}
+
